@@ -14,6 +14,13 @@ There is no installation required to use this webpage.
 
 Users can scroll up and down the page to view the listed information. Alternatively, they can use the navigation bar at the top of the page to move to the desired location.
 
-md
 ![Horiseon main webpage](assets/images/01-html-css-git-homework-demo.png)
+
+## Features
+
+-Semantic HTML
+
+## Credits
+
+Jeff DeRosalia
 
