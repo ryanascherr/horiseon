@@ -48,7 +48,7 @@ a {
     text-decoration: none;
 }
 
-/*Class name was changed from 'hero' to 'meeting-pic' to make it more clear what it was referring to.*/
+/*Class name was changed from 'hero' to 'meeting-pic' to make it more clear what it was referring to.
 .meeting-pic {
     height: 800px;
     width: 100%;
@@ -57,7 +57,14 @@ a {
     background-size: cover;
     background-position: center;
 }
-
+*/
+.meeting-pic{
+    height: 950px;
+    width: 100%;
+    z-index: -1;
+    position: relative;
+    top: -80px;
+}
 /*Class name was changed for clarity.*/
 .content-container {
     width: 75%;
