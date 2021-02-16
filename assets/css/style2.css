@@ -41,23 +41,14 @@ body {
     margin-left: 25px;
 }
 
-/*The p selector was removed, as 16px is already the default font size.a*/
+/*The p selector was removed, as 16px is already the default font size.*/
 
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
-/*Class name was changed from 'hero' to 'meeting-pic' to make it more clear what it was referring to.
-.meeting-pic {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
-}
-*/
+/*Class name was changed from 'hero' to 'meeting-pic' to make it more clear what it was referring to.*/
 .meeting-pic{
     height: 950px;
     width: 100%;
