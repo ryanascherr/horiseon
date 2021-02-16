@@ -6,15 +6,11 @@
 
 body {
     background-color: #d9dcd6;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.header, .footer {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .header {
     padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
@@ -32,6 +28,7 @@ body {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
 
@@ -44,27 +41,34 @@ body {
     margin-left: 25px;
 }
 
+/*The p selector was removed, as 16px is already the default font size.*/
+
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
-.meeting-pic {
-    height: 800px;
+/*Class name was changed from 'hero' to 'meeting-pic' to make it more clear what it was referring to.*/
+.meeting-pic{
+    height: 950px;
     width: 100%;
-    margin-bottom: 25px;
+    z-index: -1;
+    position: relative;
+    top: -80px;
 }
-
+/*Class name was changed for clarity.*/
 .content-container {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*Class names were changed and consolidated for clarity and simplicity.*/
 .content {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
 }
@@ -88,6 +92,7 @@ a {
     margin-left: 25px;
 }
 
+/*Class name was changed for clarity.*/
 .benefits-container {
     margin-right: 20px;
     padding: 20px;
@@ -95,9 +100,11 @@ a {
     float: right;
     width: 20%;
     height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
 
+/*Class names were changed and consolidated for clarity and simplicity.*/
 .benefits {
     margin-bottom: 32px;
     color: #ffffff;
@@ -117,6 +124,7 @@ a {
 .footer {
     padding: 30px;
     clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
