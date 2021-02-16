@@ -41,11 +41,14 @@ body {
     margin-left: 25px;
 }
 
+/*The p selector was removed, as 16px is already the default font size.a*/
+
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/*Class name was changed from 'hero' to 'meeting-pic' to make it more clear what it was referring to.*/
 .meeting-pic {
     height: 800px;
     width: 100%;
@@ -55,12 +58,14 @@ a {
     background-position: center;
 }
 
+/*Class name was changed for clarity.*/
 .content-container {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*Class names were changed and consolidated for clarity and simplicity.*/
 .content {
     margin-bottom: 20px;
     padding: 50px;
@@ -89,6 +94,7 @@ a {
     margin-left: 25px;
 }
 
+/*Class name was changed for clarity.*/
 .benefits-container {
     margin-right: 20px;
     padding: 20px;
@@ -100,6 +106,7 @@ a {
     background-color: #2589bd;
 }
 
+/*Class names were changed and consolidated for clarity and simplicity.*/
 .benefits {
     margin-bottom: 32px;
     color: #ffffff;
