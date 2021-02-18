@@ -74,7 +74,7 @@ a{
 
 /*Class names were changed and consolidated for clarity and simplicity.*/
 .content{
-    margin: 15px;
+    margin: 15px 0 15px 15px;
     background-color: #0072BA;
 }
 
@@ -141,6 +141,10 @@ a{
     div.flex{
         display: block;
         width: 100%;
+    }
+
+    .content{
+        margin: 15px;
     }
 
     .content-container{
