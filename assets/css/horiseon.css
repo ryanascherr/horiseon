@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #D9DCD6;
+    color: white;
+}
+
+.flex{
+    display: flex;
+}
+
+.header{
+    background-color: #2a607c;
+    padding: 15px 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header h1{
+    padding: 15px 30px 15px 15px;
+    color: white;
+    font-size: 48px;
+}
+
+.seo{
+    color: #d9dcd6;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.header nav{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+.header nav ul li{
+    list-style-type: none;
+    margin: 0 30px 0 20px;
+}
+
+/*The p selector was removed, as 16px is already the default font size.*/
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/*Class name was changed from 'hero' to 'meeting-pic' to make it more clear what it was referring to.*/
+.meeting-pic{
+    width: 100%;
+}
+
+/*Class name was changed for clarity.*/
+.content-container{
+    width: 80%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*Class names were changed and consolidated for clarity and simplicity.*/
+.content{
+    margin: 15px;
+    background-color: #0072BA;
+}
+
+.content h2{
+    font-size: 36px;
+}
+
+.content p{
+    margin-top: 30px;
+}
+
+.content img{
+    width: 300px;
+}
+
+/*Float-right and float-left removed*/
+.section-left{
+    margin: 45px 15px 45px 45px;
+}
+
+.section-right{
+    margin: 45px 45px 45px 15px;
+}
+
+/*Class name was changed for clarity.*/
+.benefits-container{
+    width: 20%;
+    margin: 15px;
+    background-color: #2589BD;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*Class names were changed and consolidated for clarity and simplicity.*/
+.benefits{
+    margin: 40px 20px;
+}
+
+.benefits img{
+    width: 150px;
+    margin: 0 auto;
+    display: block;
+}
+
+.benefits h3{
+    text-align: center;
+}
+
+.footer{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 30px 0;
+}
+
+.footer h3{
+    font-size: 20px;
+}
+
+.footer h3, footer p{
+    color: black;
+    text-align: center;
+}
+
+@media screen and (max-width: 992px) {
+
+    div.flex{
+        display: block;
+        width: 100%;
+    }
+
+    .content-container{
+        width: 100%;
+    }
+
+    .benefits-container{
+        display: flex;
+        margin-right: 15px;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .benefits-container{
+        display: block;
+        
+    }
+    .benefits{
+        width: 75%;
+        margin: 0 auto;
+        padding: 15px 0;
+    }
+
+    .benefits p{
+        margin-bottom: 30px;
+    }
+
+    .content.flex{
+        display: block;
+    }
+
+    div.section-left{
+        margin: 0;
+        padding: 15px;
+    }
+
+    div.section-right{
+        margin: 0;
+        padding: 15px;
+    }
+
+    .content img{
+        display: block;
+        margin: 0 auto;
+    }
+
+    .content{
+        text-align: center;
+    }
+
+    .header.flex{
+        display: block;
+    }
+
+    .header h1{
+        text-align: center;
+    }
+
+    .header ul.flex{
+        margin: 0 10px;
+    }
+}
