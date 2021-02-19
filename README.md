@@ -18,8 +18,7 @@ Users can scroll up and down the page to view the listed information. Alternativ
 
 ## Features
 
--Semantic HTML
--Responsiveness. The page has 2 break points (992px and 768px) and will display nicely across any size screen.
+This website features semantic HTML as well as responsive design. The page has 2 break points (992px and 768px) and will display nicely across any size screen.
 
 ## Credits
 
@@ -27,5 +26,5 @@ Jeff DeRosalia
 
 ## Link
 
-https://ryanascherr.github.io/horiseon/horiseon.html
+https://ryanascherr.github.io/horiseon.html
 
