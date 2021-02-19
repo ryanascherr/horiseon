@@ -26,5 +26,5 @@ Jeff DeRosalia
 
 ## Link
 
-https://ryanascherr.github.io/horiseon.html
+https://ryanascherr.github.io/horiseon/
 
