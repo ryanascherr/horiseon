@@ -20,6 +20,10 @@ Users can scroll up and down the page to view the listed information. Alternativ
 
 This website features semantic HTML as well as responsive design. The page has 2 break points (992px and 768px) and will display nicely across any size screen.
 
+## Technologies Used
+
+HTML, CSS
+
 ## Credits
 
 Jeff DeRosalia
@@ -27,4 +31,8 @@ Jeff DeRosalia
 ## Link
 
 https://ryanascherr.github.io/horiseon/
+
+## Contact Information
+
+ryanascherr@gmail.com
 
